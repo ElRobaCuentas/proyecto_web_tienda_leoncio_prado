@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
     width: 100%;
     height: 100%;
+    font-family: Heebo,"Helvetica Neue",Arial,sans-serif;
 }
 
 a {
@@ -16,12 +16,21 @@ a {
 
 .header {
     width: 100%;
-    height: 80px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: rgb(168, 27, 141);
-    padding: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
 }
+
 
 .logo img {
     width: 150px;
@@ -29,7 +38,6 @@ a {
 
 .buscar {
     width: 350px;
-    border-radius: 3px;
 }
 
 .buscar input {
@@ -52,3 +60,70 @@ a {
     margin-right: 10px;
 }
 
+.header2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header2 a {
+    font-size: 13px;
+    margin: 0px 80px;
+    color: black;
+    font-weight: 600;
+}
+
+.header2 .categorias {
+    color: rgb(168, 27, 141);
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    height: 200vh;
+    border: 3px solid black;
+}
+
+.main img {
+    width: 1416px;
+}
+
+.imperdibles {
+    border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productos {
+    width: 1100px;
+    height: 500px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos .caja {
+    margin: 0px 20px;
+    width: 220px;
+    height: 420px;
+    border: 1px solid black;
+}
+
+.caja img {
+    width: 200px;
+}
+
+.cajaOne {
+    width: 60px;
+    height: 40px;
+    background-color: black;
+}
+  
