@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(168, 27, 141);
+    padding: 15px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.buscar {
+    width: 350px;
+    border-radius: 3px;
+}
+
+.buscar input {
+    padding: 10px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account a {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    color: white;
+}
+
+.account i {
+    margin-right: 10px;
+}
+
